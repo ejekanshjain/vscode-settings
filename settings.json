@@ -4,7 +4,7 @@
   "editor.wordWrap": "on",
   "files.autoSave": "afterDelay",
   "explorer.confirmDelete": false,
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.fontLigatures": true,
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Fira Code",
