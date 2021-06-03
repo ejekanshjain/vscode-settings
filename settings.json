@@ -1,10 +1,13 @@
 {
-  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "editor.wordWrap": "on",
   "files.autoSave": "afterDelay",
   "explorer.confirmDelete": false,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  // "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.fontLigatures": true,
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Fira Code",
