@@ -3,7 +3,7 @@
   "editor.formatOnPaste": true,
   "editor.wordWrap": "on",
   "editor.linkedEditing": true,
-  "files.autoSave": "afterDelay",
+  // "files.autoSave": "afterDelay",
   "explorer.confirmDelete": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
@@ -57,5 +57,11 @@
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
   }
 }
