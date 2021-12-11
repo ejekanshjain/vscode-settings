@@ -2,6 +2,7 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.wordWrap": "on",
+  "editor.linkedEditing": true,
   "files.autoSave": "afterDelay",
   "explorer.confirmDelete": false,
   "editor.codeActionsOnSave": {
@@ -56,8 +57,5 @@
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
   }
 }
