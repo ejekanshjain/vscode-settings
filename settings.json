@@ -3,7 +3,8 @@
   "editor.formatOnPaste": true,
   "editor.wordWrap": "on",
   "editor.linkedEditing": true,
-  // "files.autoSave": "afterDelay",
+  "editor.bracketPairColorization.enabled": true,
+  "files.autoSave": "afterDelay",
   "explorer.confirmDelete": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
