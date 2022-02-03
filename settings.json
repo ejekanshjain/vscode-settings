@@ -4,7 +4,7 @@
   "editor.wordWrap": "on",
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "off",
   "explorer.confirmDelete": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
@@ -14,6 +14,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 16,
+  "editor.lineHeight": 24,
   "editor.letterSpacing": 0.5,
   "editor.cursorWidth": 8,
   "editor.cursorBlinking": "expand",
@@ -30,11 +31,12 @@
   "tailwindCSS.includeLanguages": {
     "typescriptreact": "typescriptreact"
   },
-  // Prettier
+  // Prettier config
   "prettier.arrowParens": "avoid",
   "prettier.trailingComma": "none",
   "prettier.semi": false,
   "prettier.singleQuote": true,
+  // Default formatter for files
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -62,6 +64,7 @@
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  // Python Jupyter notebook associations
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   }
