@@ -22,11 +22,6 @@
   "workbench.colorTheme": "SynthWave '84",
   // Tailwind
   "css.validate": false,
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": false,
-    "strings": true
-  },
   "tailwindCSS.emmetCompletions": true,
   "tailwindCSS.includeLanguages": {
     "typescriptreact": "typescriptreact"
@@ -38,6 +33,9 @@
   "prettier.singleQuote": true,
   // Default formatter for files
   "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
@@ -58,14 +56,7 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  // Python Jupyter notebook associations
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
   }
 }
