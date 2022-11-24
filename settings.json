@@ -18,7 +18,7 @@
   "editor.cursorWidth": 8,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": true,
-  // "workbench.colorTheme": "SynthWave '84",
+  "workbench.colorTheme": "SynthWave '84",
   // "workbench.colorTheme": "Shades of Purple (Super Dark)",
   // Github Copilot
   "editor.inlineSuggest.enabled": true,
