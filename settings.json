@@ -11,14 +11,14 @@
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
   "workbench.iconTheme": "material-icon-theme",
-  // "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontSize": 16,
   "editor.lineHeight": 24,
   "editor.letterSpacing": 0.5,
   "editor.cursorWidth": 8,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
-  // "workbench.colorTheme": "SynthWave '84",
+  "workbench.colorTheme": "SynthWave '84",
   // Github Copilot
   "editor.inlineSuggest.enabled": true,
   // Tailwind
@@ -64,5 +64,11 @@
   },
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sql-formatter.dialect": "pl/sql",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.agent.maxRequests": 100
 }
