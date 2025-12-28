@@ -19,14 +19,16 @@
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "workbench.colorTheme": "SynthWave '84",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
   // Github Copilot
   "editor.inlineSuggest.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.agent.maxRequests": 100,
   // Tailwind
   "files.associations": {
     "*.css": "tailwindcss"
-  },
-  "editor.quickSuggestions": {
-    "strings": true
   },
   "tailwindCSS.includeLanguages": {
     "typescriptreact": "typescriptreact"
@@ -68,7 +70,5 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "sql-formatter.dialect": "pl/sql",
-  "github.copilot.nextEditSuggestions.enabled": true,
-  "chat.agent.maxRequests": 100
+  "sql-formatter.dialect": "pl/sql"
 }
